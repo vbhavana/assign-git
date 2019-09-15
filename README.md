@@ -1,9 +1,4 @@
 # assign-git
 Bhavana-Vakkalagadda
-<<<<<<< HEAD
-"This is a Change on testbranch2"
+"This is a Change on testbranch2" "First Change" "test branch change"
 
-=======
-"First Change"
-"test branch change"
->>>>>>> master
