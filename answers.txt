@@ -1,0 +1,25 @@
+Name : Bhavana Vakkalagadda
+1.
+a> gitignore file consists of filname and extensions of such files for those we do not want git tracking, these files can be specific to individual developer's environment and so on.
+We want such provision so that specific developers files not get committed in common repository.
+
+
+For java project, some of such files can be:
+1) IDE specific  files (Like eclipse or Intellij files)
+2) OS specific files like MAC OS.
+3) .class files (depending upon the project needs)
+4) log files,J2ME files
+
+2.
+a> fast Forward is done when we want to merge one branch with another, but in particular scenario. Let us say we want to merge a branch which is far ahead in commits 
+compared to the branch we currently are trying to merge and there is no divergent work in between them.Then the Git can simply move the HEAD pointer of base branch to the latest commit of the ahead branch which is being attempted to merge. 
+ 
+3.
+a>The main motivation for having different branches is facilitates parallel development among many developers as smoothly as possible and it also helps parallel development of multiple projects.
+Lets say project A has to be completed with the help of two developers, then handing them individual branch will decouple them from each others conflicting changes. Once the individual work is complete they merge their code (with conflict resolution) with base branch using pull request.
+ 
+4.
+we can have multiple remote Git repositories, if at all we want to have multiple copies(or versions) of the codebase, usually people generally have only one named with an alias 'ORIGIN' pointing to the repository which was used to create the codebase in the client machine
+
+
+
