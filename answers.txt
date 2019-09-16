@@ -1,3 +1,4 @@
+Name : Bhavana Vakkalagadda
 1.
 a> gitignore file consists of filname and extensions of such files for those we do not want git tracking, these files can be specific to individual developer's environment and so on.
 We want such provision so that specific developers files not get committed in common repository.
