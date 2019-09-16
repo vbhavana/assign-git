@@ -7,6 +7,7 @@ For java project, some of such files can be:
 1) IDE specific  files (Like eclipse or Intellij files)
 2) OS specific files like MAC OS.
 3) .class files (depending upon the project needs)
+4) log files,J2ME files
 
 2.
 a> fast Forward is done when we want to merge one branch with another, but in particular scenario. Let us say we want to merge a branch which is far ahead in commits 
